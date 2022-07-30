@@ -12,5 +12,10 @@ public class TestController {
 	public String test() {
 		return "Hello World !";
 	}
+	
+	@GetMapping("/demo")
+	public String myDemo() {
+		return "This is demo project !";
+	}
 
 }
